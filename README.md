@@ -1,22 +1,44 @@
-# abnd_single-screen-app
+# Lisa's Italian Restaurant - Single Screen App
 
-Android Basics Nanodegree
-Project 1: Build a Single Screen App
+Android Basics Nanodegree - Project 1: Build a Single Screen App
 
-Design and implement a single screen app that displays information about a fictional small business. Think along the lines of your favorite coffeeshop, local restaurant, or that gem of a store that sells those rare comic books or records.
+A single-screen Android app showcasing Lisa's Italian Restaurant, featuring authentic Italian cuisine in Dublin, CA.
 
-Your design must include:
+## App Features
 
-● Business name
+**Business Information:**
+- Restaurant name and branding
+- Multiple Italian food images
+- Complete contact information
+- Business description and hours
 
-● At least one photo representing the business
+**Interactive Elements:**
+- Clickable phone number for direct calling
+- Tappable email address for quick contact
+- Interactive address for map navigation
+- Website link for online presence
 
-● Two or more other pieces of information, such as:
+**Technical Implementation:**
+- Responsive ScrollView layout
+- Material Design theming with Italian colors
+- Accessibility support with content descriptions
+- Externalized string resources for localization
 
-    ○ Contact information for the business (eg phone number, email address, website)
-  
-     ○ Address of the Business
-  
-     ○ Description of business
-  
-     ○ Hours of operation
+## Business Details
+
+- **Name**: Lisa's Italian Restaurant
+- **Location**: 104 Grafton St, Dublin, CA 94568
+- **Phone**: 510-111-1111
+- **Email**: info@lisasRestaurant.com
+- **Website**: www.lisasrestaurant.com
+- **Hours**: Everyday from 11AM-10PM
+- **Specialty**: Authentic Italian food with party reservations
+
+## Project Requirements Met
+
+✅ Business name  
+✅ Multiple business photos  
+✅ Contact information (phone, email, website)  
+✅ Business address  
+✅ Business description  
+✅ Hours of operation
