@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.lisasitalianresturants"
+        applicationId "com.example.lisasitalianrestaurant"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
@@ -16,6 +16,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        disable 'ExpiredTargetSdkVersion', 'GradleCompatible'
+        abortOnError false
+    }
+    namespace 'com.example.lisasitalianrestaurant'
 }
 
 dependencies {

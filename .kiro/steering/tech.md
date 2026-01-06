@@ -1,8 +1,8 @@
 # Technology Stack
 
 ## Build System
-- **Gradle**: Android Gradle Plugin 3.5.0
-- **Gradle Wrapper**: Used for consistent builds across environments
+- **Gradle**: Android Gradle Plugin 8.1.4
+- **Gradle Wrapper**: 8.5 (supports Java 21)
 
 ## Android Configuration
 - **Compile SDK**: 28 (Android 9.0 API level 28)
@@ -38,7 +38,7 @@
 # Run unit tests
 ./gradlew test
 
-# Run instrumented tests
+# Run instrumented tests (requires connected device/emulator)
 ./gradlew connectedAndroidTest
 
 # Run all tests
@@ -46,7 +46,10 @@
 ```
 
 ## Development Notes
-- Uses legacy Android Support Library (pre-AndroidX)
+- Uses legacy Android Support Library (pre-AndroidX) for educational consistency
 - Single activity architecture with MainActivity as entry point
 - Material Design theming applied through styles.xml
 - String externalization for localization support
+- Modern Gradle 8.5 with Java 21 compatibility
+- Namespace defined in build.gradle instead of AndroidManifest.xml
+- Lint checks configured to allow legacy library usage for student project
